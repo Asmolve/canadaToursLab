@@ -1,0 +1,69 @@
+#intro {
+    margin: 10px;
+    font-size: 22px;
+    font-family: "Comic Sans MS";
+}
+
+.carousel-item {
+    max-height: 80vh;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+#heart {
+    color: mediumspringgreen;
+    font-size: 34px;
+    margin-top: 0px;
+}
+
+#footer {
+    background-color: snow;
+    border-top: solid 0.1px #6f42c1;
+
+}
+
+#footer a, #footer {
+    color: #6610f2;
+}
+
+nav .active {
+    background-color: #80bdff;
+    opacity: 50%;
+}
+
+#tours .row {
+    flex-wrap: nowrap;
+}
+
+#tours .left {
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+#tours .right {
+    margin-right: 50px;
+    margin-left: 15px;
+
+}
+
+body, html, #tours {
+    height: 100%;
+}
+
+.description {
+    border: dotted 2px black;
+    font-family: "Lucida Handwriting";
+    font-size: 24px;
+
+
+}
+
+.description p {
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/ / align horizontally center aligns-items: center
+}
