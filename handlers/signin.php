@@ -22,7 +22,8 @@
         $_SESSION['user']['purchased_tour'] = $tour['destination'];
 
         header('Location: ../profile.php');
-    }else{
+    }
+    else{
         $_SESSION['errorMessage'] = "Wrong e-mail or password, try again O.o";
         header('Location: ../signupin.php');
     }
